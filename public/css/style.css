@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* body, h1, h2, h3, ul, p {
+    margin 0;
+    padding 0;
+} */
+#header{
+    background-color: #61e60f;
+    border-bottom: 7px solid coral;
+
+    
+}
+#header h1{
+    color: #e60909;
+    font-family: sans-serif;
+    padding: 15px 0;
+    display: inline-block;
+
+}
+#header  .logo {
+    background-position: center center;
+    color: orange;
+}
+.navbar {
+    float: right;
+}
+.navbar li {
+    display: inline;
+}
+    .navbar li a {
+        color: #320606;
+        font-family: sans-serif;
+        padding: 25px 15px;
+        display: inline-block;
+    }
+    .navbar li a:hover{
+        color: rgb(244, 0, 0);
+    }
+
+.container{
+    width: 70%;
+    margin: auto;
+    background-position: 100%;
+}
+#banner {
+    height: 100vh;
+    background-image: url(../images/1.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: #dc5807;
+    font-family: sans-serif;
+}
+#banner h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+  
+   
+}
+#baxtli {
+    background-color:  coral;
+    color: whitesmoke;
+    font-family: sans-serif;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+#baxtli .left {
+    float: left;
+}
+#baxtli .right {
+float: right;
+}
+.button {
+    padding: 5px 15px;
+    border: none;
+    background-color:rgb(6, 233, 6);
+}
+#tanishuv{
+    padding: 30 0;
+}
+.xazil{
+    width: 33.3%;
+    
+    float: left;
+    text-align: center;
+    font-family: sans-serif;
+}
+.xazil img {
+    max-width: 80%;
+    width: 120%;
+}
+.clr {
+    clear: both;
+}
+#footer{
+    padding: 30px 0;
+    text-align: center;
+    background-color: #61e60f ;
+    color: #fff;
+    margin-top: 40px;
+}
+ 
+
+.cam-button  {
+   
+    
+    display: inline-block;
+    background-color: #89e60f;
+    color: #000000;
+    height: 40px;
+    font-weight: 400;
+}
+
+
+#canvas {
+    display: none;
+}
+.btn{
+    margin-left: 1060px;
+    display: inline-block;
+    background-color: #61e60f;
+    color: #000000;
+    height: 40px;
+    font-weight: 400;
+}
